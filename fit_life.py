@@ -22,5 +22,5 @@ water_l = water_ml / 1000
 print("Результаты расчётов для", user_name,
       "(возраст:", user_age, "лет):")
 print("Твой ИМТ:", bmi_rounded)
-print("Твоя норма воды:"
-      ,round(water_l, 1), "литров")
+print("Твоя норма воды:",
+      round(water_l, 1), "литров")
