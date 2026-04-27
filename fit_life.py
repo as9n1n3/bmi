@@ -6,8 +6,14 @@ user_age = int(input("Сколько тебе лет? "))
 
 print(f"\n{user_name}, теперь мне нужно узнать твои параметры.")
 
-user_weight = float(input("Введи вес (кг, например 75.5): "))
-user_height = float(input("Введи рост (м, например 1.75): "))
+print(
+    f"\n{user_name}, теперь мне нужно узнать "
+    "твои параметры."
+)
+
+user_weight = float(
+    input("Введи вес (кг, например 75.5): ")
+)
 
 bmi = user_weight / (user_height ** 2)
 bmi_rounded = round(bmi, 1)
